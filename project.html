@@ -210,25 +210,29 @@
   </body>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
-   window.onload = function () {
-    const swiper = new Swiper('.swiper', {
-        loop: true,
+  document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".swiper-container", {
+        loop: true, // Enable infinite loop
         pagination: {
-            el: '.swiper-pagination',
+            el: ".swiper-pagination",
+            clickable: true,
         },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 3000, // 3-second auto-slide
+            disableOnInteraction: false,
         },
         breakpoints: {
-            320: { slidesPerView: 1, spaceBetween: 20 },
-            576: { slidesPerView: 2, spaceBetween: 15 },
-            768: { slidesPerView: 3, spaceBetween: 15 },
-            992: { slidesPerView: 4, spaceBetween: 15 },
-            1200: { slidesPerView: 5, spaceBetween: 25 },
+            320: { slidesPerView: 1, spaceBetween: 10 },
+            768: { slidesPerView: 2, spaceBetween: 15 },
+            1024: { slidesPerView: 3, spaceBetween: 20 },
         }
     });
-};
+});
+</script>
 </script>
 <script>
   function openModal(imageSrc) {
