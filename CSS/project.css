@@ -270,6 +270,19 @@ footer {
     background-color: rgba(255, 255, 255, 0.5);
     transition: 0.3s ease-in-out;
 }
+.swiper-container {
+    width: 100%;
+    max-width: 1200px;  /* Set max width */
+    height: auto;       /* Auto height */
+    margin: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;  /* Ensures images keep their aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
 
 
 
