@@ -1,0 +1,280 @@
+
+h1 {
+    font-family: "Brush Script MT", cursive;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    font-size: 63px;
+    color: #623d12;
+}
+
+
+header {
+    display: flx;
+    direction: ltr;
+}
+
+header img {
+    width: 122px;
+}
+
+.picture img {
+    animation-name: img;
+    animation-duration: 2s;
+}
+
+header .col {
+    display: flex;
+}
+
+header ul li a:hover {
+    color: blue !important;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    padding: 25px;
+    margin-right: 50px;
+    font-family: auto;
+}
+
+ul {
+    display: flex;
+}
+
+a { text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.swiper {
+
+    top: 239px;
+}
+
+body {
+    background-color: #c4c5b736
+}
+
+h2 {
+    text-align-last: center;
+    margin-top: 325px;
+    font-family: fantasy;
+    background-color: #b7b2a3fa;
+}
+h3 {
+    text-align-last: center;
+    margin-bottom: 115px;
+    font-family: fantasy;
+    background-color: #b7b2a3fa;
+}
+.category {
+    background: #ffffff;
+    padding: 17px 27px;
+    margin: 106px 12px;
+
+}
+.category  img:hover {
+    border-radius:20px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5q #5c5436;
+
+}
+
+.category img {
+    width: 184px;
+    height: 162px;
+}
+
+.category1  img:hover {
+    border-radius:20px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5q #5c5436;
+
+}
+
+
+button {
+    border-radius: 100px
+}
+
+p {
+    background-color: white;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 15px;
+}
+
+.category p:hover {
+    background: #aca694fa;
+    transition: 1s;
+    color: white;
+    text-shadow: 0 0 20px 10px  black;
+    border-radius: 10px;
+}
+
+.category1 {
+    background: #ffffff;
+    padding: 17px 27px;
+    margin: 0 12px;
+}
+
+.category1 img {
+    width: 184px;
+    height: 162px;
+}
+
+.category1 p:hover {
+    background: #aca694fa;
+    transition: 1s;
+    color: white;
+    text-shadow: 0 0 20px 10px  black;
+    border-radius: 10px;
+}
+
+p1 {
+    color: black;
+    font-family: auto;
+    font-size: 24px;
+}
+
+.news {
+
+    margin-top: 95px;
+
+}
+
+.men {
+    background-color: white;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: white;
+    width: 1280px;
+    height: 350px;
+    margin-top:100px;
+    padding-left: 170px;
+    padding-top: 42px;
+    padding-right: 161px;
+}
+
+h6 {
+    color: grey;
+}
+
+h5 {
+    background-color: #b8b4a5;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+
+header .fixed-top {
+    background-color: #ffffffed
+}
+
+.swiper-button-next {
+    color: #918a72;
+    background-color: white;
+    border-radius: 20%;
+    width: 45px;
+    height: 60px;
+}
+
+.swiper-button-prev {
+    color: #918a72;
+    background-color: white;
+    border-radius: 20%;
+    width: 45px;
+    height: 60px;
+}
+
+
+
+
+.news .d-flex img {
+    width: 100px;
+    margin: 50px 30px 0px 30px;
+}
+
+.d-flex {
+    justify-content: center
+}
+
+h4 {
+    background-color: #a39d91;
+}
+header .fixed-top .col { justify-content: center;}
+
+
+@media screen and (min-width: 320px) {
+    .news .row .col { display: block;
+        justify-content: center;
+         }
+    footer {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+
+    .news .row .col { display: block;
+        justify-content: center; }
+    footer{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .news .row .col { display: block;
+        justify-content: center;}
+    footer{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .news .row .col { display: block;
+        justify-content: center;}
+    footer{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: blu;
+    }
+    .news .row .col { display: block;
+        justify-content: center; }
+    footer{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rd;
+    }
+    .news .row .col { display: flex;
+        justify-content: center;
+    }
+    footer{
+        justify-content: center;
+    }
+}
