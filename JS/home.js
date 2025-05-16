@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
         "Hi, My name is Fatemeh.",
         "I am passionate about technology.",
         "I love web development and design.",
-        "I am learning JavaScript for dynamic effects!"
     ];
     
    
