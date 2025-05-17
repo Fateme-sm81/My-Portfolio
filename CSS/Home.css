@@ -51,37 +51,37 @@ body{
 
 }
 .jshover:hover{
-  content: url(img/java-scriptblue.png);
+  content: url(../img/java-scriptblue.png);
 
 }
 .Chover:hover{
-  content: url(img/letter-color.png);
+  content: url(../img/letter-color.png);
 
 }
 .Cpluhover:hover{
-  content: url(img/cplus.png);
+  content: url(../img/cplus.png);
 
 }
 .Exelhover:hover{
-  content: url(img/excelcolor.png);
+  content: url(../img/excelcolor.png);
 }
 .Wordhover:hover{
-  content: url(img/wordColor.png);
+  content: url(../img/wordColor.png);
 }
 .Powerhover:hover{
-  content: url(img/powerpointcolor.png);
+  content: url(../img/powerpointcolor.png);
 }
 .Accesshover:hover{
-  content: url(img/microsoft-accesscolor.png);
+  content: url(../img/microsoft-accesscolor.png);
 }
 .VShover:hover{
-  content: url(img/vslogocolor.png);
+  content: url(../img/vslogocolor.png);
 }
 .figmahover:hover{
-  content: url(img/figmacolor.png);
+  content: url(../img/figmacolor.png);
 }
 .Githover:hover{
-  content: url(img/github-sign.png);
+  content: url(../img/github-sign.png);
 }
 .right-section{
   display: flex;
