@@ -352,6 +352,7 @@ flex-direction: column;
   padding: 6px;
   background-color: #00a89d;
   border-radius: 10px;
+  margin-left: 110px;
 }
 .mySite a{
   color: black;
