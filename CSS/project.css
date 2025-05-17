@@ -284,10 +284,9 @@ footer {
     transition: 0.3s ease-in-out;
 }
 .javaJamSwiper{
-flex: 1;
   color: white;
   justify-items: center;
-      margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .whole-jam{ display: flex ;
