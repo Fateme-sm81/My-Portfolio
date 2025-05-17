@@ -4,6 +4,7 @@ body{
   font-weight: 500;
   top: 60px;
   background-color: #0d0c0c;
+  overflow-x: hidden;
 }
 .container{
   display: grid;
