@@ -286,6 +286,7 @@ footer {
 .javaJamSwiper{
 flex: 1;
   color: white;
+  justify-items: center;
 }
 
 .whole-jam{ display: flex ;
