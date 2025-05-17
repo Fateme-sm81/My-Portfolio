@@ -20,13 +20,12 @@
 
 
 }
-.logo{
-  width: 26px;
-  height: 27px;
+.logo {
+  width: 55px;
+  height: 60px;
   border-radius: 30px;
   padding-top: 4px;
 }
-
 #heart {
   position: absolute;
   width: 14px;
@@ -55,6 +54,7 @@
   list-style: none;
   font-size: 12px;
   padding-left: 0;
+  margin: 23px;
   
 }
 .navigator a{
@@ -112,9 +112,9 @@
   
   max-width:100%;
   color: white;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
-.swiper, swiper-container {
+.swiper, .swiper-container {
   border-bottom: 4px white solid;
 }
 
@@ -205,39 +205,52 @@ footer {
   font-size: 14px;
   opacity: 0.8;
 }
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
+  .news .row .col { display: block;
+      justify-content: center;}
+  footer{
+      justify-content: center;
+  }
+  .swiper {
+    padding: 0 20px;  /* Less padding on mobile */
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+
   .news .row .col { display: block;
       justify-content: center;}
   footer{
       justify-content: center;
   }
 }
+@media screen and (max-width: 530px){
+  .swiper {
+    padding: 0 20px;  /* Less padding on mobile */
+    width: 300px !important ;
 
-@media screen and (min-width: 768px) {
-
-
-  .news .row .col { display: block;
-      justify-content: center;}
-  footer{
-      justify-content: center;
+  }
+  .whole-jam{
+    display: block !important;
   }
 }
+@media screen and (max-width: 1000px) {
 
-@media screen and (min-width: 992px) {
-  body {
-      background-color: blu;
-  }
   .news .row .col { display: block;
       justify-content: center; }
   footer{
       justify-content: center;
   }
+  .swiper {
+    padding: 0 20px;  /* Less padding on mobile */
+    width: 300px !important ;
+  }
 }
 
-@media screen and (min-width: 1200px) {
-  body {
-      background-color: rd;
-  }
+@media screen and (max-width: 1200px) {
+
   .news .row .col { display: flex;
       justify-content: center;
   }
@@ -270,19 +283,82 @@ footer {
     background-color: rgba(255, 255, 255, 0.5);
     transition: 0.3s ease-in-out;
 }
-.swiper-container {
-    width: 100%;
-    max-width: 1200px;  /* Set max width */
-    height: auto;       /* Auto height */
-    margin: auto;
+.javaJamSwiper{
+flex: 1;
+  color: white;
+}
+
+.whole-jam{ display: flex ;
+flex-direction: row;
+  border-bottom: 2px solid white;
+  padding-bottom: 58px;
+
+}
+.right-partjam{ display: flex;
+flex-direction: column;
+  align-items: center;
+  overflow: visible;
+  position: relative;
+}
+.right-partjam .firstTwo{
+  margin-bottom: 36px;
+  border-radius: 40px;
+  padding: 8px;
+  background-color: #623d12;
+  border: 1px solid black;
+}
+.right-partjam .secondTwo{
+   margin-bottom: 36px;
+   border-radius: 40px;
+   padding: 8px;
+   background-color:#00a89d;
+  border: 1px solid black;
+ }
+
+.swiper {
+  width: 100%;
+  max-width: 730px;
+  margin: auto;
+  position: relative;
+  overflow: visible;
 }
 
 .swiper-slide img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;  /* Ensures images keep their aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners */
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
 }
 
+.swiper {
+  width: 100%;
+  max-width: 730px;
+  margin: auto;
+  position: relative;
+  overflow: visible;
+  padding: 0 40px; /* Add horizontal space inside container */
+}
+.tick-list{
+  list-style: none;
+}
+.tick-list li::before {
+  content: "✔️" ;
+  margin-right: 10px;
+  color: limegreen;
+}
 
+@media (max-width: 768px) {
+  .swiper {
+    padding: 0 20px;  /* Less padding on mobile */
+    width: 200px;
+  }
 
+  .swiper-button-next {
+    right: 5px;
+  }
+
+  .swiper-button-prev {
+    left: 5px;
+  }
+
+}
