@@ -44,10 +44,10 @@ body{
   transition: opacity 0.3s ease-in-out;
 }
 .CSShover:hover, .CSShover:active{
-  content: url(img/CSS3purple.png);
+  content: url(../img/CSS3purple.png);
 }
 .HTMLhover:hover{
-  content: url(img/html-5blue.png);
+  content: url(../img/html-5blue.png);
 
 }
 .jshover:hover{
