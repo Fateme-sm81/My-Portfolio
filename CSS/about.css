@@ -97,7 +97,7 @@ body{
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 79px 90px 79px 0px;
+    margin: 123px 54px;
 }
 .about-section img {
     border-radius: 100px;
@@ -161,4 +161,12 @@ footer {
 .footer-text p {
     font-size: 14px;
     opacity: 0.8;
+}
+@media (max-width: 678px) {
+    .left-about {
+        grid-template-rows: 0fr 1fr 1fr;
+    }
+    .about-section{
+        grid-template-columns: none;
+    }
 }
